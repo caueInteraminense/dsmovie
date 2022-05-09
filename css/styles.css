@@ -2,6 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 *{
+    box-sizing: border-box;
     font-family: 'Open Sans', sans serif;
 }
+    html, body{background-color: rgb(210, 216, 216);}
     
+    header{
+        background-color: rgb(31, 18, 218);
+        color:rgb(255, 255, 255)
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    a, a:hover{
+       text-decoration: none;
+        color: unset
+    }
